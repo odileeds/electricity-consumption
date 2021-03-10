@@ -101,7 +101,7 @@ foreach $typ (@types){
 		}
 	}
 
-	open(FILE,">utf8","electricity-consumption-$typ-by-msoa.geojson");
+	open(FILE,">utf8","geojson/electricity-consumption-$typ-by-msoa.geojson");
 	print FILE "{\n";
 	print FILE "\t\"type\":\"FeatureCollection\",\n";
 	print FILE "\t\"features\": [\n";
